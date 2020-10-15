@@ -1,0 +1,189 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    background-image:url("/images/4451242.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    
+}
+.nav image{
+    opacity: 0.2;
+}
+.mainnavbody{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    background-color: blue;
+width: 150px;
+height: 60px;
+margin-left: 20px;
+margin-top: 20px;
+}
+.navbar{
+   
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 400px;
+    
+}
+.navbar ul{
+ display: flex;
+ justify-content: space-between;   
+ padding-right: 30px;
+ 
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(194, 181, 181);
+}
+.next{
+    
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.next button{
+    font-size: 15px;
+    color: white;
+    background-color: #EC268F;
+    border-radius: 25px;
+    width: 50px;
+    border: none;
+}
+.IRROM{
+    display: flex;
+    flex-flow: column;
+    height: 350px;
+    width: 900px;
+    margin-top: 20px;
+}
+.Welcome{
+    font-weight: bold;
+    width: 700px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    animation-name: welcomee;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes welcomee{
+    0% {color: black;}
+    25% {color: palevioletred;}
+    50% {color: blue;}
+    100% {color: white;}
+}
+.message{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+}
+.download{
+   
+    display: flex;
+    flex-flow: row;
+    width: 200px;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.download button{
+    color: white;
+    background-color: #EC268F;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+}
+.our-goal h1{
+    text-align: center;
+}
+.main{
+    width: 100%;
+    height: 620px;
+    
+    
+    
+}
+.the-goals{
+    display: flex;
+    /**justify-content: space-between;**/
+
+}
+.first-goal{
+    width: 300px;
+    height: 200px;
+    
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.second-goal{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.third-goal{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.fourth-goal{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.About-nest{
+    
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.About{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Change{
+margin-top: 20px;
+}
+.About button{
+    background-color: #EC268F;
+    border: none;
+    border-radius: 25px;
+    width: 80px;
+    height: 40px;
+    margin-top: 50px;
+}
+footer{
+    background-color: #EC268F ;
+    height: 100px;
+    width: 100%;
+}

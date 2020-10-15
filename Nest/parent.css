@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nest-icon{
+    width: 200px;
+    height: 100px;
+  
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.nest-icon img{
+    height: 70px;
+    padding-top: 15px;
+    padding-left: 20px;
+    
+    
+}
+.nest-icon h4{
+    padding-top: 10px;
+    padding-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:  #EC268F;
+    padding-RIGHT: 70PX;
+    font-size: 20px;
+}
+input{
+    display: block;
+    margin-top: 40px;
+    height: 70px;
+    width: 400px;
+    margin-left: 70px;
+    border-radius: 15px;
+    border: none;
+   background-color: rgb(179, 177, 177);
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+}
+::placeholder{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left:30px ;
+    font-size: 20px;
+}
+.main{
+  
+    width: 100%;
+    height: 700px;
+   display: flex;
+}
+.login-form h3{
+    margin-left: 70px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.login-form i{
+    float: right;
+    margin-left: -80px;
+    margin-top:85px ;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right:200px ;
+
+}
+.forgot{
+    width: 500px;
+    margin-left: 70px;
+    justify-content: space-between;
+    display: flex;
+}
+.forgot button{
+    background-color: #EC268F ;
+    width: 150px;
+    margin-top:20px ;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.forgot p a{
+    text-decoration: none;
+    color:#EC268F ;
+}
+.student-image{
+    background-image: url("images/4219191.jpg");
+    height: 900px;
+    width: 700px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
